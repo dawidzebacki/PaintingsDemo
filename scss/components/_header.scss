@@ -5,7 +5,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
   width: 100%;
+  min-height: 60px;
   background-color: #f9caa7;
 }
 
@@ -19,9 +21,14 @@
 .header-nav {
   ul {
     display: flex;
+    margin: 0;
+    padding: 0;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     list-style: none;
+    @media (min-width: 600px) {
+      gap: 20px;
+    }
     li {
       font-weight: bold;
       cursor: pointer;
