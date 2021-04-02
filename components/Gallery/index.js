@@ -67,7 +67,7 @@ const GalleryComponent = () => {
   return (
     <div className="gallery">
       <h1>{t("Gallery.Title")}</h1>
-      <Gallery photos={photos} onClick={openLightbox}/>
+      <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway>
         {viewerIsOpen ? (
           <Modal onClose={closeLightbox}>
@@ -76,7 +76,7 @@ const GalleryComponent = () => {
               views={photos.map((x) => ({
                 ...x,
                 srcset: x.srcSet,
-                caption: x.title,
+                caption: x.alt,
               }))}
             />
           </Modal>
