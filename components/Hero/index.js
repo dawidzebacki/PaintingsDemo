@@ -12,7 +12,7 @@ const Hero = () => {
         <hr />
         <div className="hero__about">
           <div>
-            <Image
+            <img
               alt="illustration"
               src="/images/illustration.svg"
               width={64}
@@ -22,7 +22,7 @@ const Hero = () => {
             <p>{t("Hero.ItemOneText")}</p>
           </div>
           <div>
-            <Image
+            <img
               alt="painting"
               src="/images/painting.svg"
               width={64}
@@ -33,7 +33,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero__about-text">
-          <Image
+          <img
             alt="paint-brush"
             src="/images/paint-brush.svg"
             width={64}
@@ -44,11 +44,9 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero__image">
-        <Image
+        <img
           alt="painter"
           src="/images/painter.svg"
-          width={512}
-          height={512}
         />
       </div>
     </div>

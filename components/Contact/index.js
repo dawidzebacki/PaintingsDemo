@@ -11,7 +11,7 @@ const Contact = () => {
       <p>{t("Contact.Text")}</p>
       <div>
         <a href="https://www.facebook.com/darek.zebacki">
-          <Image
+          <img
             alt="facebook"
             src="/images/facebook.svg"
             width={48}
@@ -19,10 +19,10 @@ const Contact = () => {
           />
         </a>
         <a href="mailto:71Kerad19@protonmail.com">
-          <Image alt="mail" src="/images/gmail.svg" width={48} height={48} />
+          <img alt="mail" src="/images/gmail.svg" width={48} height={48} />
         </a>
         <a href="tel:+4796819494">
-          <Image
+          <img
             alt="telephone"
             src="/images/telephone.svg"
             width={48}

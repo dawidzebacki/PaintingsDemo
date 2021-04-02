@@ -67,6 +67,16 @@
   &__image {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex: 1;
+
+    img {
+      width: 256px;
+      height: 256px;
+      @media (min-width: 800px) {
+        width: 512px;
+        height: 512px;
+      }
+    }
   }
 }
