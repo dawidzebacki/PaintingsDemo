@@ -9,8 +9,10 @@
   h1 {
     font-size: 2em;
     text-align: center;
+    text-shadow: 2px 2px #f9caa7;
     @media (min-width: 600px) {
       font-size: 4em;
+      text-shadow: 4px 4px #f9caa7;
     }
   }
 }
