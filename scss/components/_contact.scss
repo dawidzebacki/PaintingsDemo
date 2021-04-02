@@ -16,7 +16,9 @@
 
   div {
     display: flex;
-    gap: 50px;
+    a {
+      margin: 0 25px;
+    }
   }
 
   p {
