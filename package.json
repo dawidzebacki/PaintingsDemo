@@ -9,8 +9,16 @@
     "export": "next export"
   },
   "dependencies": {
+    "detect-browser-language": "^0.0.2",
     "next": "10.0.9",
+    "next-i18next": "^8.1.3",
+    "next-images": "^1.7.0",
+    "node-sass": "^5.0.0",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-images": "1.0.0",
+    "react-photo-gallery": "^8.0.0",
+    "react-ssr-prepass": "^1.4.0",
+    "sass": "^1.32.8"
   }
 }
