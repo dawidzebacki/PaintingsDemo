@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 import { resources } from "../translations";
-import { I18nextProvider } from "react-i18next";
 
 import "../scss/app.scss";
 

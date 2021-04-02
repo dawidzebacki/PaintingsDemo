@@ -7,36 +7,43 @@ import { useTranslation } from "next-i18next";
 const photos = [
   {
     src: "images/los.png",
+    alt: "moose",
     width: 826,
     height: 598,
   },
   {
     src: "images/jelen_long.png",
+    alt: "deer",
     width: 1663,
     height: 684,
   },
   {
     src: "images/losie.png",
+    alt: "mooses",
     width: 1146,
     height: 924,
   },
   {
     src: "images/papuga.png",
+    alt: "parrot",
     width: 1080,
     height: 1332,
   },
   {
     src: "images/aston.png",
+    alt: "man with dog",
     width: 568,
     height: 630,
   },
   {
     src: "images/view1.png",
+    alt: "landscape",
     width: 1948,
     height: 1560,
   },
   {
     src: "images/view2.png",
+    alt: "landscape2",
     width: 3288,
     height: 2604,
   },

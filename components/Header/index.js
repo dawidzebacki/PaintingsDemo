@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import { useTranslation } from "next-i18next";
 import { useRouter } from "next/router";
 
@@ -26,7 +25,7 @@ const Header = ({ language, setLanguage }) => {
   return (
     <header className="header">
       <div className="header-logo">
-        <Image alt="logo" src="/images/logo.png" width={64} height={64} />
+        <img alt="logo" src="/images/logo.png" width={64} height={64} />
       </div>
       <nav className="header-nav">
         <ul>

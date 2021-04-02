@@ -41,10 +41,6 @@ const Home = () => {
     }
   }, [router.query]);
 
-  useEffect(() => {
-    console.log(language);
-  }, []);
-
   return (
     <Layout>
       <Header language={language} setLanguage={setLanguage} />

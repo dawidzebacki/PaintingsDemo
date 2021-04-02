@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Head from "next/head";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { useTranslation } from "next-i18next";
 
 const Layout = ({ children }) => {
 
