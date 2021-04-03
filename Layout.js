@@ -1,19 +1,18 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Head from "next/head";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import { initGA, logPageView } from "./analytics";
+// import { initGA, logPageView } from "./analytics";
 
 const Layout = ({ children }) => {
 
-  useEffect(() => {
-    if (!window.GA_INITIALIZED) {
-      initGA();
-      window.GA_INITIALIZED = true;
-    }
-    logPageView();
-  }, []);
-
+  // useEffect(() => {
+  //   if (!window.GA_INITIALIZED) {
+  //     initGA();
+  //     window.GA_INITIALIZED = true;
+  //   }
+  //   logPageView();
+  // }, []);
 
   return (
     <div className="app-wrapper">
@@ -26,6 +25,22 @@ const Layout = ({ children }) => {
           content="Portfolio Obrazów - Darek Zębacki"
         ></meta>
         <link rel="shortcut icon" href="/favicon.ico" />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-46W137MKFJ" >
+        </script>
+        <script dangerouslySetInnerHTML={
+          {
+            __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments)}
+        gtag("js", new Date());
+        gtag("config", "G-46W137MKFJ");
+    `}
+        }>
+        </script>
+
+
       </Head>
       <Header />
       <main>{children}</main>
