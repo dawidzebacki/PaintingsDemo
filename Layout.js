@@ -1,5 +1,5 @@
 import React from "react";
-import Head from "next/head";
+import { Head } from "next/head";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 // import { initGA, logPageView } from "./analytics";
@@ -42,6 +42,28 @@ const Layout = ({ children }) => {
 
 
       </Head>
+      <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <Header />
       <main>{children}</main>
       <Footer />
