@@ -24,19 +24,16 @@ const Home = () => {
         heroRef.current.scrollIntoView({
           behavior: "smooth",
         });
-        console.log(language);
         return;
       case "/?gallery":
         galleryRef.current.scrollIntoView({
           behavior: "smooth",
         });
-        console.log(language);
         return;
       case "/?contact":
         contactRef.current.scrollIntoView({
           behavior: "smooth",
         });
-        console.log(language);
         return;
     }
   }, [router.query]);
