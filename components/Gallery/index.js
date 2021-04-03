@@ -6,6 +6,12 @@ import { useTranslation } from "next-i18next";
 
 const photos = [
   {
+    src: "images/feniks.jpg",
+    alt: "Phoenix",
+    width: 2634,
+    height: 3204,
+  },
+  {
     src: "images/los.png",
     alt: "Moose",
     width: 826,
