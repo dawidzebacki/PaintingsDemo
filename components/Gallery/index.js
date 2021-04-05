@@ -12,16 +12,16 @@ const photos = [
     height: 1080,
   },
   {
-    src: "images/feniks.jpg",
-    alt: "Phoenix",
-    width: 2634,
-    height: 3204,
-  },
-  {
     src: "images/los.png",
     alt: "Moose",
     width: 826,
     height: 598,
+  },
+  {
+    src: "images/feniks.jpg",
+    alt: "Phoenix",
+    width: 2634,
+    height: 3204,
   },
   {
     src: "images/jelen_long.png",
@@ -34,6 +34,12 @@ const photos = [
     alt: "Mooses",
     width: 1146,
     height: 924,
+  },
+  {
+    src: "images/szop.jpg",
+    alt: "Raccoon",
+    width: 870,
+    height: 1080,
   },
   {
     src: "images/papuga.png",
