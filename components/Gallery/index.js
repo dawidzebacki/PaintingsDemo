@@ -42,28 +42,34 @@ const photos = [
     height: 1080,
   },
   {
-    src: "images/papuga.png",
-    alt: "Parrot",
-    width: 1080,
-    height: 1332,
-  },
-  {
-    src: "images/aston.png",
-    alt: "Darek & Aston",
-    width: 568,
-    height: 630,
-  },
-  {
     src: "images/view1.png",
     alt: "Landscape",
     width: 1948,
     height: 1560,
   },
   {
+    src: "images/papuga.png",
+    alt: "Parrot",
+    width: 1080,
+    height: 1332,
+  },
+  {
+    src: "images/papuga-2.jpg",
+    alt: "Another parrot",
+    width: 1080,
+    height: 1332,
+  },
+  {
     src: "images/view2.png",
     alt: "Landscape with an eagle",
     width: 3288,
     height: 2604,
+  },
+  {
+    src: "images/aston.png",
+    alt: "Darek & Aston",
+    width: 568,
+    height: 630,
   },
 ];
 
