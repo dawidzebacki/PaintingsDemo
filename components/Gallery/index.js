@@ -30,6 +30,12 @@ const photos = [
     height: 684,
   },
   {
+    src: "images/kot.jpg",
+    alt: "Cat",
+    width: 1443,
+    height: 1080,
+  },
+  {
     src: "images/losie.png",
     alt: "Mooses",
     width: 1146,
