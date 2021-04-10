@@ -72,6 +72,12 @@ const photos = [
     height: 2604,
   },
   {
+    src: "images/wilk.jpg",
+    alt: "Wolf",
+    width: 1324,
+    height: 1080,
+  },
+  {
     src: "images/aston.png",
     alt: "Darek & Aston",
     width: 568,
