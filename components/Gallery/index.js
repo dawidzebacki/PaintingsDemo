@@ -60,6 +60,12 @@ const photos = [
     height: 1332,
   },
   {
+    src: "images/aston.jpg",
+    alt: "Aston, my dog",
+    width: 1336,
+    height: 1080,
+  },
+  {
     src: "images/papuga-2.jpg",
     alt: "Another parrot",
     width: 1080,
