@@ -18,10 +18,10 @@ const photos = [
     height: 598,
   },
   {
-    src: "images/feniks.jpg",
+    src: "images/feniks_2.jpg",
     alt: "Phoenix",
-    width: 2634,
-    height: 3204,
+    width: 826,
+    height: 1080,
   },
   {
     src: "images/jelen_long.png",
