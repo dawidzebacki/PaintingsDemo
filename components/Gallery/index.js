@@ -38,7 +38,7 @@ const photos = [
   {
     src: "images/drakkar.jpg",
     alt: "Drakkar",
-    width: 842,
+    width: 833,
     height: 1080,
   },
   {
@@ -68,7 +68,7 @@ const photos = [
   {
     src: "images/aston.jpg",
     alt: "Aston, my dog",
-    width: 1402,
+    width: 1327,
     height: 1080,
   },
   {
