@@ -36,6 +36,12 @@ const photos = [
     height: 1080,
   },
   {
+    src: "images/drakkar.jpg",
+    alt: "Drakkar",
+    width: 842,
+    height: 1080,
+  },
+  {
     src: "images/losie.png",
     alt: "Mooses",
     width: 1146,
@@ -62,7 +68,7 @@ const photos = [
   {
     src: "images/aston.jpg",
     alt: "Aston, my dog",
-    width: 1336,
+    width: 1402,
     height: 1080,
   },
   {
