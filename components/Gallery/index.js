@@ -24,10 +24,10 @@ const photos = [
     height: 1080,
   },
   {
-    src: "images/jelen_long.png",
+    src: "images/jelen_long.jpg",
     alt: "Deers",
-    width: 1663,
-    height: 684,
+    width: 1920,
+    height: 786,
   },
   {
     src: "images/kot.jpg",
