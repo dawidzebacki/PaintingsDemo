@@ -38,7 +38,7 @@ const photos = [
   {
     src: "images/drakkar.jpg",
     alt: "Drakkar",
-    width: 833,
+    width: 844,
     height: 1080,
   },
   {
