@@ -5,6 +5,7 @@ import { useTranslation } from "next-i18next";
 
 import Hero from "../components/Hero";
 import GalleryComponent from "../components/Gallery";
+import GalleryComponentPS from "../components/GalleryPS";
 import Contact from "../components/Contact";
 import Header from "../components/Header";
 
@@ -16,6 +17,7 @@ const Home = () => {
   );
   const heroRef = useRef(null);
   const galleryRef = useRef(null);
+  const galleryPSRef = useRef(null);
   const contactRef = useRef(null);
 
   useEffect(() => {
@@ -27,6 +29,11 @@ const Home = () => {
         return;
       case "/?gallery":
         galleryRef.current.scrollIntoView({
+          behavior: "smooth",
+        });
+        return;
+      case "/?galleryps":
+        galleryPSRef.current.scrollIntoView({
           behavior: "smooth",
         });
         return;
@@ -47,6 +54,10 @@ const Home = () => {
 
       <div className="id-wrapper" ref={galleryRef}>
         <GalleryComponent />
+      </div>
+
+      <div className="id-wrapper" ref={galleryPSRef}>
+        <GalleryComponentPS />
       </div>
 
       <div className="id-wrapper" ref={contactRef}>

@@ -21,10 +21,15 @@
 .header-nav {
   ul {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 0;
     padding: 0;
     align-items: center;
     list-style: none;
+    // @media (min-width: 320px) {
+    //   flex-direction: row;
+    // }
     li {
       margin: 0 5px;
       @media (min-width: 450px) {
@@ -35,25 +40,32 @@
       }
       font-weight: bold;
       cursor: pointer;
+      
       select {
         cursor: pointer;
         border: 3px solid #36454f;
         background: transparent;
         border-radius: 15px;
-        height: 45px;
-        width: 50px;
-        padding: 5px;
+        height: 25px;
+        width: 40px;
+        padding: 0;
         text-align: center;
         text-align:-moz-center;
         text-align-last: center;
         text-align: -webkit-center;
         color: #36454f;
         font-weight: bold;
-        font-size: 1.1em;
+        font-size: 1em;
         -webkit-appearance: none;
         -moz-appearance: none;
         text-indent: 0px;
         text-overflow: "";
+        @media (min-width: 450px) {
+          height: 45px;
+          width: 50px;
+          padding: 5px;
+          font-size: 1.1em;
+        }
       }
     }
   }

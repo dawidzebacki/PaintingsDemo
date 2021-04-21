@@ -4,6 +4,7 @@ export const resources = {
       Header: {
         About: "About me",
         Paintings: "Paintings",
+        Graphics: "Graphics",
         Contact: "Contact",
       },
       Hero: {
@@ -19,7 +20,10 @@ export const resources = {
           "My name is Darek, I'm 50 this year and I'm an self-taught painter. Painting has always fascinated me, only life took a different path and there was no time for painting. I love to paint, it calms me down and at the same time I do something beautiful. I like to paint nature and culture and also something abstract. Life is my inspiration. I love colors, but also details in painted pictures, so that these pictures give life and energy and reflect the Norwegian spirit. Currently, I am a member of Gjøvik Kunstforening.",
       },
       Gallery: {
-        Title: "Some of my work.",
+        Title: "Some of my paintings.",
+      },
+      GalleryPS: {
+        Title: "Graphic projects.",
       },
       Contact: {
         Title: "Do you like what I'm doing?",
@@ -33,6 +37,7 @@ export const resources = {
       Header: {
         About: "O mnie",
         Paintings: "Obrazy",
+        Graphics: "Grafiki",
         Contact: "Kontakt",
       },
       Hero: {
@@ -48,7 +53,10 @@ export const resources = {
           "Mam na imię Darek, w tym roku kończę 50 lat i jestem malarzem samoukiem. Malarstwo zawsze mnie fascynowało, tylko życie poszło inną drogą i nie było czasu na zajmowanie się tym co lubię. Uwielbiam malować, to mnie uspokaja, a jednocześnie robię coś pięknego. W swoich pracach lubię uwieczniać naturę, kulturę, a także coś abstrakcyjnego. Życie jest moją inspiracją. Uwielbiam kolory, ale też zwracam uwagę na najmniejsze detale. Chcę aby moja twórczość dodawała chęci życia i energii oraz odzwierciedlały norweskiego ducha. Aktualnie jestem też członkiem w stowarzyszeniu Gjøvik Kunstforening.",
       },
       Gallery: {
-        Title: "Niektóre z moich prac.",
+        Title: "Niektóre z moich obrazów.",
+      },
+      GalleryPS: {
+        Title: "Projekty graficzne.",
       },
       Contact: {
         Title: "Podoba Ci się moja twórczość?",
@@ -61,6 +69,7 @@ export const resources = {
       Header: {
         About: "Om meg",
         Paintings: "Malerier",
+        Graphics: "Grafikk",
         Contact: "Kontakt",
       },
       Hero: {
@@ -77,6 +86,9 @@ export const resources = {
       },
       Gallery: {
         Title: "Noe av arbeidet mitt.",
+      },
+      GalleryPS: {
+        Title: "Grafiske prosjekter.",
       },
       Contact: {
         Title: "Liker du det jeg holder på med?",

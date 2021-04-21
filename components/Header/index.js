@@ -39,6 +39,14 @@ const Header = ({ language, setLanguage }) => {
           </li>
           <li
             onClick={() =>
+              !router.pathname.includes("galleryps") &&
+              router.push({ query: "galleryps" })
+            }
+          >
+            {t("Header.Graphics")}
+          </li>
+          <li
+            onClick={() =>
               !router.pathname.includes("gallery") &&
               router.push({ query: "gallery" })
             }
