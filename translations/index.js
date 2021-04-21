@@ -45,7 +45,7 @@ export const resources = {
           "Maluję obrazy na płótnie. Chętnie wykonam coś specjalnie dla Ciebie.",
         ItemThreeTitle: "Coś o mnie",
         ItemThreeText:
-          "Mam na imię Darek, w tym roku kończę 50 lat i jestem malarzem samoukiem. Malarstwo zawsze mnie fascynowało, tylko życie poszło inną drogą i nie było czasu na zajmowanie się tym co lubię. Uwielbiam malować, to mnie uspokaja, a jednocześnie robię coś pięknego. W swoich pracah lubię uwieczniać naturę, kulturę, a także coś abstrakcyjnego. Życie jest moją inspiracją. Uwielbiam kolory, ale też zwracam uwagę na najmniejsze detale. Chcę aby moja twórczość dodawała chęci życia i energii oraz odzwierciedlały norweskiego ducha. Aktualnie jestem też członkiem w stowarzyszeniu Gjøvik Kunstforening.",
+          "Mam na imię Darek, w tym roku kończę 50 lat i jestem malarzem samoukiem. Malarstwo zawsze mnie fascynowało, tylko życie poszło inną drogą i nie było czasu na zajmowanie się tym co lubię. Uwielbiam malować, to mnie uspokaja, a jednocześnie robię coś pięknego. W swoich pracach lubię uwieczniać naturę, kulturę, a także coś abstrakcyjnego. Życie jest moją inspiracją. Uwielbiam kolory, ale też zwracam uwagę na najmniejsze detale. Chcę aby moja twórczość dodawała chęci życia i energii oraz odzwierciedlały norweskiego ducha. Aktualnie jestem też członkiem w stowarzyszeniu Gjøvik Kunstforening.",
       },
       Gallery: {
         Title: "Niektóre z moich prac.",
