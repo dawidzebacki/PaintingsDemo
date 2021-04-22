@@ -72,6 +72,12 @@ const photos = [
     height: 1080,
   },
   {
+    src: "images/city_sea.jpg",
+    alt: "City by the sea",
+    width: 1381,
+    height: 1080,
+  },
+  {
     src: "images/papuga-2.jpg",
     alt: "Another parrot",
     width: 1080,
