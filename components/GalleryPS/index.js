@@ -42,23 +42,23 @@ const GalleryComponentPS = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-  const openLightbox = useCallback((event, { photo, index }) => {
-    setCurrentImage(index);
-    setViewerIsOpen(true);
-  }, []);
+  // const openLightbox = useCallback((event, { photo, index }) => {
+  //   setCurrentImage(index);
+  //   setViewerIsOpen(true);
+  // }, []);
 
-  const closeLightbox = () => {
-    setCurrentImage(0);
-    setViewerIsOpen(false);
-  };
+  // const closeLightbox = () => {
+  //   setCurrentImage(0);
+  //   setViewerIsOpen(false);
+  // };
 
   return (
     <div className="gallery gallery-ps">
       <h1>{t("GalleryPS.Title")}</h1>
-      <Gallery photos={photos} onClick={openLightbox} />
+      <Gallery photos={photos} />
       <ModalGateway>
         {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
+          <Modal>
             <Carousel
               currentIndex={currentImage}
               views={photos.map((x) => ({

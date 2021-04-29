@@ -36,6 +36,12 @@ const photos = [
     height: 1080,
   },
   {
+    src: "images/geralt.jpg",
+    alt: "Geralt",
+    width: 827,
+    height: 1080,
+  },
+  {
     src: "images/drakkar.jpg",
     alt: "Drakkar",
     width: 844,
@@ -74,7 +80,7 @@ const photos = [
   {
     src: "images/city_sea.jpg",
     alt: "City by the sea",
-    width: 1381,
+    width: 1365,
     height: 1080,
   },
   {
@@ -108,23 +114,23 @@ const GalleryComponent = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [viewerIsOpen, setViewerIsOpen] = useState(false);
 
-  const openLightbox = useCallback((event, { photo, index }) => {
-    setCurrentImage(index);
-    setViewerIsOpen(true);
-  }, []);
+  // const openLightbox = useCallback((event, { photo, index }) => {
+  //   setCurrentImage(index);
+  //   setViewerIsOpen(true);
+  // }, []);
 
-  const closeLightbox = () => {
-    setCurrentImage(0);
-    setViewerIsOpen(false);
-  };
+  // const closeLightbox = () => {
+  //   setCurrentImage(0);
+  //   setViewerIsOpen(false);
+  // };
 
   return (
     <div className="gallery">
       <h1>{t("Gallery.Title")}</h1>
-      <Gallery photos={photos} onClick={openLightbox} />
+      <Gallery photos={photos} />
       <ModalGateway>
         {viewerIsOpen ? (
-          <Modal onClose={closeLightbox}>
+          <Modal>
             <Carousel
               currentIndex={currentImage}
               views={photos.map((x) => ({
