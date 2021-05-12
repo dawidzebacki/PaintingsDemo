@@ -36,6 +36,12 @@ const photos = [
     height: 1080,
   },
   {
+    src: "images/horse.jpg",
+    alt: "Horse",
+    width: 809,
+    height: 1080,
+  },
+  {
     src: "images/geralt.jpg",
     alt: "Geralt",
     width: 827,
