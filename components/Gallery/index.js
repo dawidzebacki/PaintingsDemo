@@ -12,6 +12,18 @@ const photos = [
     height: 1080,
   },
   {
+    src: "images/Ship.jpg",
+    alt: "Victoria Ship",
+    width: 1486,
+    height: 1080,
+  },
+  {
+    src: "images/Horse2.jpg",
+    alt: "Horse",
+    width: 1356,
+    height: 1080,
+  },
+  {
     src: "images/los.png",
     alt: "Moose",
     width: 826,
