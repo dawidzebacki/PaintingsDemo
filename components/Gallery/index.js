@@ -6,9 +6,69 @@ import { useTranslation } from "next-i18next";
 
 const photos = [
   {
-    src: "images/sowa.jpg",
-    alt: "Owl",
-    width: 875,
+    src: "images/city_view.jpg",
+    alt: "City view",
+    width: 1981,
+    height: 1080,
+  },
+  {
+    src: "images/34_doggos.jpg",
+    alt: "Dogs",
+    width: 3425,
+    height: 1080,
+  },
+  {
+    src: "images/33_parrot_long.jpg",
+    alt: "Long Parrot",
+    width: 281,
+    height: 1080,
+  },
+  {
+    src: "images/32_cats_moon.jpg",
+    alt: "Cats with the moon",
+    width: 1368,
+    height: 1080,
+  },
+  {
+    src: "images/24_flowers.jpg",
+    alt: "Flowers",
+    width: 853,
+    height: 1080,
+  },
+  {
+    src: "images/21_flowers.jpg",
+    alt: "Flowers",
+    width: 1353,
+    height: 1080,
+  },
+  {
+    src: "images/18_góry_ekspedycja.jpg",
+    alt: "Mountains",
+    width: 1847,
+    height: 1080,
+  },
+  {
+    src: "images/8_zachód.jpg",
+    alt: "Sunset",
+    width: 1350,
+    height: 1080,
+  },
+  {
+    src: "images/4_horse_beach.jpg",
+    alt: "Horse",
+    width: 1474,
+    height: 1080,
+  },
+  {
+    src: "images/3_statek_i_księżyc.jpg",
+    alt: "Moon Ship",
+    width: 850,
+    height: 1080,
+  },
+  {
+    src: "images/2_fale_i_statek.jpg",
+    alt: "Waves",
+    width: 1298,
     height: 1080,
   },
   {
@@ -99,6 +159,12 @@ const photos = [
     src: "images/aston.jpg",
     alt: "Aston, my dog",
     width: 1327,
+    height: 1080,
+  },
+  {
+    src: "images/12_farma.png",
+    alt: "The Farm",
+    width: 2200,
     height: 1080,
   },
   {

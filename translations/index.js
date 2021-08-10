@@ -28,7 +28,7 @@ export const resources = {
       Contact: {
         Title: "Do you like what I'm doing?",
         Text:
-          "If you want me to do a project for you, feel free to contact me.",
+          "A pet, a place you like, or maybe a landscape? Have the theme you want as a picture on the wall? Contact me and I'll try to help! ",
       },
     },
   },
@@ -60,7 +60,7 @@ export const resources = {
       },
       Contact: {
         Title: "Podoba Ci się moja twórczość?",
-        Text: "Skontaktuj się ze mną w sprawie Twojego projektu.",
+        Text: "Zwierzak, miejsce, które lubisz, a może krajobraz? Masz motyw, który chcesz jako obraz na ścianie? Skontaktuj się ze mną, a postaram się pomóc! ",
       },
     },
   },
@@ -92,7 +92,7 @@ export const resources = {
       },
       Contact: {
         Title: "Liker du det jeg holder på med?",
-        Text: "Hvis du vil at jeg skal gjøre et prosjekt for deg, er du velkommen til å kontakte meg.",
+        Text: "Et kjæledyr, et sted du liker, eller kanskje et landskap? Har du temaet du vil ha som bilde på veggen? Kontakt meg, så skal jeg prøve å hjelpe! ",
       },
     },
   },
